@@ -4,6 +4,7 @@
   "description": "blog posts",
   "main": "src/server.js",
   "scripts": {
+    "prestart": "ls -lR",
     "start": "node src/server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
