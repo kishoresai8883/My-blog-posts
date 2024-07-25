@@ -2,10 +2,9 @@
   "name": "my-blog-posts",
   "version": "1.0.0",
   "description": "blog posts",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "prestart": "ls -lR",
-    "start": "node src/server.js",
+    "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm start\" \"npm run client\""
